@@ -18,5 +18,5 @@ public interface DepartementService{
 
      Departement fetchDepartementByName(String departementName);
      
-     Departement fetchDepartementByUsername(String departementUsername)
+     
 }
