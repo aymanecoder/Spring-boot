@@ -17,4 +17,6 @@ public interface DepartementService{
      Departement updateDepartement(Long departementId, Departement departement);
 
      Departement fetchDepartementByName(String departementName);
+     
+     Departement fetchDepartementByUsername(String departementUsername)
 }
